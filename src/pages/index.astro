@@ -15,7 +15,7 @@ import DefaultLayout from '@/layouts/DefaultLayout.astro';
 
 ---
 
-<DefaultLayout title={SITE_TITLE} description={SITE_DESCRIPTION} >
+<DefaultLayout title={SITE_TITLE} description={SITE_DESCRIPTION} surface="home">
   <Background className="via-muted to-muted/80">
     <Hero />
     <Logos client:only="react"/> 

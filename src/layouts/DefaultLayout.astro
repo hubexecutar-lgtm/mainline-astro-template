@@ -3,15 +3,15 @@ import BaseHead from '@/components/BaseHead.astro';
 import { Footer } from '@/components/blocks/footer';
 import { Navbar } from '@/components/blocks/navbar';
 
-const { title, description } = Astro.props;
+// ADR-002 §3.2: escopo de superfície para o CSS global (home, blog-index, article).
+const { title, description, surface } = Astro.props;
 ---
 
 <html lang="en">
     <head>		
         <BaseHead title={title} description={description}  />
     </head>
-    <body class={`h-screen antialiased`}
-    >
+    <body class={`h-screen antialiased`} data-surface={surface}>
         <Navbar client:only='react' />
         <main><slot /></main>
         <Footer />
