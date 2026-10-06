@@ -389,3 +389,170 @@ body {
     border-color: var(--color-gray-200, currentColor);
   }
 }
+
+/* 10 surface.home: sem regras por enquanto. A Home preserva a tipografia e o
+   layout aprovados (ADR-002 §5.1); só tokens de cor semântica a afetam. */
+
+/* 11 surface.blog-index (ADR-002 §5.2): a grade 1/2/3 colunas não muda. */
+[data-surface="blog-index"] a[href^="/blog/"] {
+  transition: border-color 0.15s ease;
+}
+[data-surface="blog-index"] a[href^="/blog/"]:hover {
+  border-color: var(--line-strong);
+}
+[data-surface="blog-index"] a[href^="/blog/"]:focus-visible {
+  outline: 2px solid var(--ring);
+  outline-offset: 2px;
+}
+
+/* 12 surface.article: cabeçalho do artigo */
+[data-surface="article"] h1 {
+  font-size: var(--type-h1-size);
+  line-height: var(--type-h1-line);
+  letter-spacing: var(--type-h1-track);
+  font-weight: var(--type-h1-weight);
+  text-wrap: balance;
+}
+
+/* 13 article.prose: camada editorial única para Markdown/MDX (ADR-002 §9).
+   Mapeia os tokens para as variáveis do Tailwind Typography, o que também
+   corrige o texto escuro sobre fundo escuro, já que o artigo não usa
+   prose-invert. */
+[data-surface="article"] .prose {
+  --tw-prose-body: var(--editorial-text);
+  --tw-prose-headings: var(--editorial-text);
+  --tw-prose-lead: var(--editorial-muted);
+  --tw-prose-links: var(--editorial-link);
+  --tw-prose-bold: var(--editorial-text);
+  --tw-prose-counters: var(--editorial-muted);
+  --tw-prose-bullets: var(--editorial-muted);
+  --tw-prose-hr: var(--editorial-border);
+  --tw-prose-quotes: var(--editorial-text);
+  --tw-prose-quote-borders: var(--editorial-quote-border);
+  --tw-prose-captions: var(--editorial-muted);
+  --tw-prose-code: var(--editorial-text);
+  --tw-prose-pre-code: var(--editorial-text);
+  --tw-prose-pre-bg: var(--editorial-code-bg);
+  --tw-prose-th-borders: var(--editorial-border);
+  --tw-prose-td-borders: var(--editorial-border);
+
+  font-size: var(--type-p1-size);
+  line-height: var(--type-p1-line);
+  letter-spacing: var(--type-p1-track);
+  font-weight: var(--type-p1-weight);
+}
+[data-surface="article"] .prose p {
+  margin-block: 1.5rem;
+}
+[data-surface="article"] .prose h2 {
+  font-size: var(--type-h3-size);
+  line-height: var(--type-h3-line);
+  letter-spacing: var(--type-h3-track);
+  font-weight: var(--type-h3-weight);
+  margin-block: 3rem 1rem;
+  text-wrap: balance;
+}
+[data-surface="article"] .prose h3 {
+  font-size: var(--type-h4-size);
+  line-height: var(--type-h4-line);
+  letter-spacing: var(--type-h4-track);
+  font-weight: var(--type-h4-weight);
+  margin-block: 2rem 0.75rem;
+  text-wrap: balance;
+}
+[data-surface="article"] .prose strong {
+  font-weight: 600;
+}
+[data-surface="article"] .prose a {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
+  font-weight: inherit;
+}
+[data-surface="article"] .prose a:hover {
+  text-decoration-thickness: 2px;
+}
+[data-surface="article"] .prose li {
+  margin-block: 0.5rem;
+}
+[data-surface="article"] .prose blockquote {
+  font-style: normal;
+  font-weight: inherit;
+  padding: 1rem 1.25rem;
+  border-inline-start-width: 2px;
+  background: var(--editorial-code-bg);
+  border-radius: 0 var(--radius-editorial-md) var(--radius-editorial-md) 0;
+}
+[data-surface="article"] .prose blockquote p:first-of-type::before,
+[data-surface="article"] .prose blockquote p:last-of-type::after {
+  content: none;
+}
+[data-surface="article"] .prose blockquote > :first-child {
+  margin-top: 0;
+}
+[data-surface="article"] .prose blockquote > :last-child {
+  margin-bottom: 0;
+}
+[data-surface="article"] .prose hr {
+  margin-block: 3rem;
+}
+[data-surface="article"] .prose code {
+  font-family: var(--font-code-brand);
+  font-weight: 400;
+  font-size: 0.9em;
+  background: var(--editorial-code-bg);
+  padding: 0.15em 0.35em;
+  border-radius: var(--radius-editorial-sm);
+}
+[data-surface="article"] .prose code::before,
+[data-surface="article"] .prose code::after {
+  content: none;
+}
+[data-surface="article"] .prose pre {
+  background: var(--editorial-code-bg);
+  border-radius: var(--radius-editorial-md);
+  padding: 1rem 1.25rem;
+  overflow-x: auto;
+}
+[data-surface="article"] .prose pre code {
+  background: transparent;
+  padding: 0;
+  font-size: 0.875rem;
+}
+[data-surface="article"] .prose table {
+  display: block;
+  max-width: 100%;
+  overflow-x: auto;
+  font-size: 0.9375rem;
+}
+[data-surface="article"] .prose img {
+  height: auto;
+  max-width: 100%;
+  border-radius: var(--radius-editorial-md);
+}
+[data-surface="article"] .prose figcaption {
+  font-size: var(--type-caption-size);
+  line-height: var(--type-caption-line);
+  letter-spacing: var(--type-caption-track);
+  font-weight: var(--type-caption-weight);
+}
+
+/* 14 accessibility */
+[data-surface="article"] .prose a:focus-visible {
+  outline: 2px solid var(--ring);
+  outline-offset: 2px;
+  border-radius: var(--radius-editorial-sm);
+}
+
+/* 15 reduced-motion */
+@media (prefers-reduced-motion: reduce) {
+  html,
+  body {
+    scroll-behavior: auto;
+  }
+  [data-surface] [class*="animate-"],
+  [data-surface] [class*="transition"] {
+    animation: none;
+    transition: none;
+  }
+}

@@ -11,6 +11,7 @@ Vale para **todas as rotas** e para os componentes globais. Detalhes em `docs/ad
 - **Imagem:** o mesmo caminho, o mesmo formato e as mesmas dimensões (para SVG, o mesmo `viewBox`). Wordmarks são gerados com `scripts/gerar-marca.py`, a partir da DM Sans do site.
 - Se um texto do usuário não fechar a contagem, **não aplique**. Informe a diferença e proponha uma versão ajustada para ele aprovar.
 - Exceções (strings usadas na lógica, metadados duplicados, atributos como `lang`) estão listadas no ADR-001. Qualquer outra exige um novo ADR.
+- **CSS:** o ADR-002 abre uma exceção só para `src/styles/global.css` e para o atributo `data-surface` no `body` (Home, Blog e Artigos). Estilo editorial fica em `[data-surface="article"] .prose`, com tokens, sem CSS inline e sem valores marcados como GAP. O que foi aplicado está em `docs/personalizacao/estilo-referencia.md`.
 
 ## Fluxo por rota
 
