@@ -10,9 +10,9 @@
     "astro": "astro",
     "lint": "eslint . --fix",
     "format": "prettier -w .",
-    "deploy": "npm run build && wrangler deploy",
-    "cf:check": "npm run build && wrangler deploy --dry-run",
-    "cf:preview": "npm run build && wrangler dev",
+    "deploy": "wrangler deploy",
+    "cf:check": "wrangler deploy --dry-run",
+    "cf:preview": "wrangler dev",
     "check:home": "node scripts/check-slots.mjs home",
     "check:slots": "node scripts/check-slots.mjs"
   },
