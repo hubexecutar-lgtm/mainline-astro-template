@@ -12,23 +12,23 @@ import { GITHUB_URL } from "@/consts";
 
 const features = [
   {
-    title: "Tailored workflows",
-    description: "Track progress across custom issue flows for your team.",
+    title: "Planejar o caminho",
+    description: "Organizar etapas e decidir por onde começar uma tarefa.",
     icon: CircleDot,
   },
   {
-    title: "Cross-team projects",
-    description: "Collaborate across teams and departments.",
+    title: "Controle inibitório",
+    description: "Conter distrações e sustentar o seu foco.",
     icon: Blend,
   },
   {
-    title: "Milestones",
-    description: "Break projects down into concrete phases.",
+    title: "Lembrar-se",
+    description: "Manter as etapas na mente durante a ação.",
     icon: Diamond,
   },
   {
-    title: "Progress insights",
-    description: "Track scope, velocity, and progress over time.",
+    title: "Adaptar os planos",
+    description: "Mudar de direção sem perder a ordem da tarefa.",
     icon: ChartNoAxesColumn,
   },
 ];
@@ -40,17 +40,17 @@ export const Hero = () => {
         {/* Left side - Main content */}
         <div className="flex-1">
           <h1 className="text-foreground max-w-160 text-3xl tracking-tight md:text-4xl lg:text-5xl xl:whitespace-nowrap">
-            Mainline Astro template
+            Intenção vira execução.
           </h1>
 
           <p className="text-muted-foreground text-1xl mt-5 md:text-3xl">
-            Mainline is an open-source website template built with shadcn/ui,
-            Tailwind 4 & Astro 5
+            Você sabe o que precisa fazer, mas nem sempre consegue sair do plano
+            e ir para a ação?
           </p>
 
           <div className="mt-8 flex flex-wrap items-center gap-4 lg:flex-nowrap">
             <Button asChild>
-              <a href={GITHUB_URL}>Get template</a>
+              <a href={GITHUB_URL}>Abrir o mapa</a>
             </Button>
             <Button
               variant="outline"
@@ -61,7 +61,7 @@ export const Hero = () => {
                 href="https://shadcnblocks.com"
                 className="max-w-56 truncate text-start md:max-w-none"
               >
-                Built by shadcnblocks.com
+                Gestão de risco cognitivo
                 <ArrowRight className="stroke-3" />
               </a>
             </Button>

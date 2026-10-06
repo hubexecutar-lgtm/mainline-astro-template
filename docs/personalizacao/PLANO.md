@@ -37,7 +37,13 @@ O site é 100% estático (`output: "static"`). Por isso, ele é publicado como *
 2. Definir o domínio final. Depois disso, trocar `site: "https://example.com"` em `astro.config.mjs`, porque ele afeta o canonical, o sitemap e o RSS.
 3. Decidir se removemos `@astrojs/vercel`. Ele está no `package.json`, mas não é usado.
 
-## Fase 1: Home (`/`) ⏳ aguardando conteúdo
+## Fase 1: Home (`/`) ✅ copy aplicada (imagens e links pendentes)
+
+A copy "Risco Cognitivo" foi adaptada e aplicada em 104 slots de texto, com contagem exata. O logo do menu e a marca do rodapé foram trocados por "Risco Cognitivo", com o mesmo `viewBox`. A altura de cada texto e de cada seção foi comparada com o original em 7 larguras (1440 a 360px), nos temas claro e escuro, e ficou idêntica.
+
+O mapeamento da copy, as decisões de adaptação e as pendências estão em [`home-adaptacao.md`](home-adaptacao.md).
+
+### Inventário original
 
 O inventário está pronto em `docs/personalizacao/home-slots.json`: **100 slots de texto** e **29 slots de imagem**. Ele foi conferido contra o código e todos os textos originais foram encontrados.
 
@@ -93,7 +99,7 @@ A lista completa, com cada texto original e sua contagem, está no JSON. Exemplo
 
 1. Preencher `novo` em cada slot do JSON.
 2. Aplicar as trocas nos arquivos de origem e substituir as imagens.
-3. `npm run check:home` precisa passar com 0 erros.
+3. `node scripts/apply-slots.mjs <rota>` aplica os textos; `npm run check:slots` precisa passar com 0 erros.
 4. `npm run build` e `npm run cf:check`.
 5. Comparar capturas de tela antes e depois (desktop e mobile, claro e escuro) para confirmar que nenhuma quebra de linha ou caixa mudou.
 
