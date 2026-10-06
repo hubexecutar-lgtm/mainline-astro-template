@@ -102,11 +102,97 @@
   --text-family: var(--font-inter);
   --display-weight: 600;
   --text-weight: 400;
+
+  /* 05 semantic aliases (ADR-002 §4.1) */
+  --surface-page: var(--background);
+  --surface-card: var(--card);
+  --text-primary: var(--foreground);
+  --text-secondary: var(--muted-foreground);
+  --line-default: var(--border);
+  --line-strong: oklch(0.145 0 0 / 20%);
+  --action-primary: var(--primary);
+  --action-primary-text: var(--primary-foreground);
+
+  --font-display-brand: var(--font-dm-sans);
+  --font-body-brand: var(--font-inter);
+  --font-code-brand: var(--font-mono);
+
+  --content-shell-max: 1220px;
+  --content-reading-max: 48rem;
+  --content-wide-max: 64rem;
+
+  --space-page-x: 1.5rem;
+  --radius-ui: var(--radius);
+
+  /* Editorial (ADR-002 §4.2) */
+  --editorial-text: var(--foreground);
+  --editorial-muted: var(--muted-foreground);
+  --editorial-link: var(--foreground);
+  --editorial-border: var(--border);
+  --editorial-code-bg: var(--muted);
+  --editorial-quote-border: var(--line-strong);
+
+  /* Raios editoriais e base de espaçamento da referência de estilo */
+  --radius-editorial-sm: 0.25rem;
+  --radius-editorial-md: 0.38rem;
+  --radius-editorial-lg: 1rem;
+  --space-base: 0.25rem;
+
+  /* Escala tipográfica editorial. Origem: openai-brand-styling.md, apêndice
+     (valores CSS extraídos, não medidos em navegador). 23.4375rem = 375px e
+     66.5625rem = 1065px: o intervalo de interpolação fluida. */
+  --type-h1-size: clamp(
+    2rem,
+    calc(2rem + 2 * ((100vw - 23.4375rem) / 66.5625)),
+    4rem
+  );
+  --type-h1-line: clamp(
+    2.28rem,
+    calc(2.28rem + 1.72 * ((100vw - 23.4375rem) / 66.5625)),
+    4rem
+  );
+  --type-h1-track: -0.03em;
+  --type-h1-weight: 500;
+  --type-h3-size: clamp(
+    1.5rem,
+    calc(1.5rem + 0.375 * ((100vw - 23.4375rem) / 66.5625)),
+    1.875rem
+  );
+  --type-h3-line: clamp(
+    1.98rem,
+    calc(1.98rem + 0.495 * ((100vw - 23.4375rem) / 66.5625)),
+    2.475rem
+  );
+  --type-h3-track: -0.01em;
+  --type-h3-weight: 500;
+  --type-h4-size: clamp(
+    1.25rem,
+    calc(1.25rem + 0.125 * ((100vw - 23.4375rem) / 66.5625)),
+    1.375rem
+  );
+  --type-h4-line: clamp(
+    1.5rem,
+    calc(1.5rem + 0.2325 * ((100vw - 23.4375rem) / 66.5625)),
+    1.7325rem
+  );
+  --type-h4-track: -0.01em;
+  --type-h4-weight: 500;
+  --type-p1-size: 1.0625rem;
+  --type-p1-line: 1.74994rem;
+  --type-p1-track: -0.01em;
+  --type-p1-weight: 400;
+  --type-caption-size: 0.875rem;
+  --type-caption-line: 1.435rem;
+  --type-caption-track: 0em;
+  --type-caption-weight: 400;
 }
 
 .dark {
-  --background: oklch(0.145 0 0);
-  --foreground: oklch(0.985 0 0);
+  /* Neutros do tema escuro da referência: fundo preto, texto branco e
+     secundário #FFFFFF99 (#999999 sólido sobre preto). */
+  --line-strong: #ffffff33;
+  --background: #000000;
+  --foreground: #ffffff;
   --card: oklch(0.205 0 0);
   --card-foreground: oklch(0.985 0 0);
   --popover: oklch(0.205 0 0);
@@ -116,7 +202,7 @@
   --secondary: oklch(0.269 0 0);
   --secondary-foreground: oklch(0.985 0 0);
   --muted: oklch(0.269 0 0);
-  --muted-foreground: oklch(0.708 0 0);
+  --muted-foreground: #999999;
   --accent: oklch(0.269 0 0);
   --accent-foreground: oklch(0.985 0 0);
   --destructive: oklch(0.704 0.191 22.216);
