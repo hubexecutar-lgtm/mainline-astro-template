@@ -7,7 +7,7 @@
       "secao": "Metadados (aba/SEO)",
       "tipo": "title",
       "original": "Mainline - Modern Astro Template",
-      "novo": null,
+      "novo": "Risco Cognitivo - Mapa Cognitivo",
       "caracteres": 32
     },
     {
@@ -16,7 +16,7 @@
       "secao": "Metadados (aba/SEO)",
       "tipo": "meta description",
       "original": "A modern, fully featured Astro template built with Shadcn/UI, TailwindCSS and TypeScript, perfect for your next web application.",
-      "novo": null,
+      "novo": "Gestão e controle de riscos cognitivos: entenda funções executivas, demandas e estratégias para transformar a intenção em ações.",
       "caracteres": 128
     },
     {
@@ -25,7 +25,7 @@
       "secao": "Hero",
       "tipo": "h1",
       "original": "Mainline Astro template",
-      "novo": null,
+      "novo": "Intenção vira execução.",
       "caracteres": 23
     },
     {
@@ -34,7 +34,7 @@
       "secao": "Hero",
       "tipo": "p",
       "original": "Mainline is an open-source website template built with shadcn/ui, Tailwind 4 & Astro 5",
-      "novo": null,
+      "novo": "Você sabe o que precisa fazer, mas nem sempre consegue sair do plano e ir para a ação?",
       "caracteres": 86
     },
     {
@@ -43,7 +43,7 @@
       "secao": "Hero",
       "tipo": "botão",
       "original": "Get template",
-      "novo": null,
+      "novo": "Abrir o mapa",
       "caracteres": 12
     },
     {
@@ -52,7 +52,7 @@
       "secao": "Hero",
       "tipo": "botão",
       "original": "Built by shadcnblocks.com",
-      "novo": null,
+      "novo": "Gestão de risco cognitivo",
       "caracteres": 25
     },
     {
@@ -61,7 +61,7 @@
       "secao": "Hero",
       "tipo": "h2",
       "original": "Tailored workflows",
-      "novo": null,
+      "novo": "Planejar o caminho",
       "caracteres": 18
     },
     {
@@ -70,7 +70,7 @@
       "secao": "Hero",
       "tipo": "p",
       "original": "Track progress across custom issue flows for your team.",
-      "novo": null,
+      "novo": "Organizar etapas e decidir por onde começar uma tarefa.",
       "caracteres": 55
     },
     {
@@ -79,7 +79,7 @@
       "secao": "Hero",
       "tipo": "h2",
       "original": "Cross-team projects",
-      "novo": null,
+      "novo": "Controle inibitório",
       "caracteres": 19
     },
     {
@@ -88,7 +88,7 @@
       "secao": "Hero",
       "tipo": "p",
       "original": "Collaborate across teams and departments.",
-      "novo": null,
+      "novo": "Conter distrações e sustentar o seu foco.",
       "caracteres": 41
     },
     {
@@ -97,7 +97,7 @@
       "secao": "Hero",
       "tipo": "h2",
       "original": "Milestones",
-      "novo": null,
+      "novo": "Lembrar-se",
       "caracteres": 10
     },
     {
@@ -106,7 +106,7 @@
       "secao": "Hero",
       "tipo": "p",
       "original": "Break projects down into concrete phases.",
-      "novo": null,
+      "novo": "Manter as etapas na mente durante a ação.",
       "caracteres": 41
     },
     {
@@ -115,7 +115,7 @@
       "secao": "Hero",
       "tipo": "h2",
       "original": "Progress insights",
-      "novo": null,
+      "novo": "Adaptar os planos",
       "caracteres": 17
     },
     {
@@ -124,7 +124,7 @@
       "secao": "Hero",
       "tipo": "p",
       "original": "Track scope, velocity, and progress over time.",
-      "novo": null,
+      "novo": "Mudar de direção sem perder a ordem da tarefa.",
       "caracteres": 46
     },
     {
@@ -142,7 +142,7 @@
       "secao": "Logos",
       "tipo": "h2",
       "original": "Powering the world's best product teams.",
-      "novo": null,
+      "novo": "O tempo escapa. O que é urgente acumula.",
       "caracteres": 40
     },
     {
@@ -151,7 +151,7 @@
       "secao": "Logos",
       "tipo": "span",
       "original": "From next-gen startups to established enterprises.",
-      "novo": null,
+      "novo": "Você começa, para, retoma e perde o ponto onde ia.",
       "caracteres": 50
     },
     {
@@ -241,7 +241,7 @@
       "secao": "Features",
       "tipo": "span (mono)",
       "original": "MEASURE TWICE. CUT ONCE.",
-      "novo": null,
+      "novo": "MAPA INTERATIVO: FUNÇÕES",
       "caracteres": 24
     },
     {
@@ -250,7 +250,7 @@
       "secao": "Features",
       "tipo": "h2",
       "original": "Made for modern product teams",
-      "novo": null,
+      "novo": "Entenda sua execução no mapa.",
       "caracteres": 29
     },
     {
@@ -259,7 +259,7 @@
       "secao": "Features",
       "tipo": "p",
       "original": "Mainline is built on the habits that make the best product teams successful: staying focused, moving quickly, and always aiming for high-quality work.",
-      "novo": null,
+      "novo": "Veja a relação entre funções executivas, demandas e estratégias. Os pontos são seletores conceituais, não a localização anatômica isolada das funções.",
       "caracteres": 150
     },
     {
@@ -268,7 +268,7 @@
       "secao": "Features",
       "tipo": "h3",
       "original": "Purpose-built for product development",
-      "novo": null,
+      "novo": "Gire o cérebro e selecione uma função",
       "caracteres": 37
     },
     {
@@ -277,7 +277,7 @@
       "secao": "Features",
       "tipo": "h3",
       "original": "Manage projects end-to-end",
-      "novo": null,
+      "novo": "Veja demandas e obstáculos",
       "caracteres": 26
     },
     {
@@ -286,7 +286,7 @@
       "secao": "Features",
       "tipo": "h3",
       "original": "Build momentum and healthy habits",
-      "novo": null,
+      "novo": "Veja relações entre fatores reais",
       "caracteres": 33
     },
     {
@@ -295,7 +295,7 @@
       "secao": "Resource Allocation",
       "tipo": "h2",
       "original": "Mainline your resource allocation and execution",
-      "novo": null,
+      "novo": "Da intenção à execução, com estratégia e apoio.",
       "caracteres": 47
     },
     {
@@ -304,7 +304,7 @@
       "secao": "Resource Allocation",
       "tipo": "h3",
       "original": "Reusable issue templates.",
-      "novo": null,
+      "novo": "Planejamento em destaque.",
       "caracteres": 25
     },
     {
@@ -313,7 +313,7 @@
       "secao": "Resource Allocation",
       "tipo": "span",
       "original": "Draft lightning-fast documents with our Smart Instructions and Templates.",
-      "novo": null,
+      "novo": "Demanda: ordenar as etapas e decidir por onde iniciar, uma etapa por vez.",
       "caracteres": 73
     },
     {
@@ -322,7 +322,7 @@
       "secao": "Resource Allocation",
       "tipo": "h3",
       "original": "Simplify your stack.",
-      "novo": null,
+      "novo": "Estratégia de apoio.",
       "caracteres": 20
     },
     {
@@ -331,7 +331,7 @@
       "secao": "Resource Allocation",
       "tipo": "span",
       "original": "No more Confluence, SharePoint, or Microsoft Word.",
-      "novo": null,
+      "novo": "Quebrar em passos visíveis e manter um único foco.",
       "caracteres": 50
     },
     {
@@ -340,7 +340,7 @@
       "secao": "Resource Allocation",
       "tipo": "h3",
       "original": "Graveyard it.",
-      "novo": null,
+      "novo": "Dificuldades.",
       "caracteres": 13
     },
     {
@@ -349,7 +349,7 @@
       "secao": "Resource Allocation",
       "tipo": "span",
       "original": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do.",
-      "novo": null,
+      "novo": "Inicia, para, muda de direção e perde o fio do que fazia antes.",
       "caracteres": 63
     },
     {
@@ -358,7 +358,7 @@
       "secao": "Resource Allocation",
       "tipo": "h3",
       "original": "Task discussions.",
-      "novo": null,
+      "novo": "Relações do mapa.",
       "caracteres": 17
     },
     {
@@ -367,7 +367,7 @@
       "secao": "Resource Allocation",
       "tipo": "span",
       "original": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod.",
-      "novo": null,
+      "novo": "Sem decompor, se eleva o risco sobre o Planejamento (relação inferida).",
       "caracteres": 71
     },
     {
@@ -376,7 +376,7 @@
       "secao": "Resource Allocation",
       "tipo": "h3",
       "original": "Notifications.",
-      "novo": null,
+      "novo": "Fontes claras.",
       "caracteres": 14
     },
     {
@@ -385,7 +385,7 @@
       "secao": "Resource Allocation",
       "tipo": "span",
       "original": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod.",
-      "novo": null,
+      "novo": "O cérebro, o grafo e as fontes são reais; apenas o layout é provisório.",
       "caracteres": 71
     },
     {
@@ -394,7 +394,7 @@
       "secao": "Depoimentos",
       "tipo": "h2",
       "original": "Trusted by product builders",
-      "novo": null,
+      "novo": "Cenas que talvez você viva.",
       "caracteres": 27
     },
     {
@@ -403,7 +403,7 @@
       "secao": "Depoimentos",
       "tipo": "p",
       "original": "Mainline is built on the habits that make the best product teams successful: staying focused, moving quickly, and always aiming for high-quality work.",
-      "novo": null,
+      "novo": "Para algumas pessoas, essas dificuldades podem estar relacionadas a demandas de planejar, organizar, iniciar, lembrar, controlar distrações e adaptar.",
       "caracteres": 150
     },
     {
@@ -412,7 +412,7 @@
       "secao": "Depoimentos",
       "tipo": "botão",
       "original": "Read our Customer Stories",
-      "novo": null,
+      "novo": "Ler o artigo sobre riscos",
       "caracteres": 25
     },
     {
@@ -421,7 +421,7 @@
       "secao": "Depoimentos",
       "tipo": "blockquote (x2 no carrossel)",
       "original": "We're misusing Mainline as a CRM and it still works!",
-      "novo": null,
+      "novo": "O tempo voa e os prazos se acumulam ao longo do dia.",
       "caracteres": 52
     },
     {
@@ -430,7 +430,7 @@
       "secao": "Depoimentos",
       "tipo": "nome (x2)",
       "original": "Amy Chase",
-      "novo": null,
+      "novo": "Iniciação",
       "caracteres": 9
     },
     {
@@ -439,7 +439,7 @@
       "secao": "Depoimentos",
       "tipo": "cargo (x2)",
       "original": "PM",
-      "novo": null,
+      "novo": "TI",
       "caracteres": 2
     },
     {
@@ -448,7 +448,7 @@
       "secao": "Depoimentos",
       "tipo": "blockquote (x2 no carrossel)",
       "original": "I was able to replace 80% of my team with Mainline bots.",
-      "novo": null,
+      "novo": "Uma tarefa fácil vira várias e não sei por onde começar.",
       "caracteres": 56
     },
     {
@@ -457,7 +457,7 @@
       "secao": "Depoimentos",
       "tipo": "nome (x2)",
       "original": "Jonas Kotara",
-      "novo": null,
+      "novo": "Planejamento",
       "caracteres": 12
     },
     {
@@ -466,7 +466,7 @@
       "secao": "Depoimentos",
       "tipo": "cargo (x2)",
       "original": "Lead Engineer",
-      "novo": null,
+      "novo": "rotina diária",
       "caracteres": 13
     },
     {
@@ -475,7 +475,7 @@
       "secao": "Depoimentos",
       "tipo": "blockquote (x2 no carrossel)",
       "original": "Founder Mode is hard enough without having a really nice PM app.",
-      "novo": null,
+      "novo": "Começo, interrompo, retomo e logo perco o ponto em que eu parei.",
       "caracteres": 64
     },
     {
@@ -484,7 +484,7 @@
       "secao": "Depoimentos",
       "tipo": "nome (x2)",
       "original": "Kevin Yam",
-      "novo": null,
+      "novo": "Distração",
       "caracteres": 9
     },
     {
@@ -493,7 +493,7 @@
       "secao": "Depoimentos",
       "tipo": "cargo (x2)",
       "original": "Founder",
-      "novo": null,
+      "novo": "estudos",
       "caracteres": 7
     },
     {
@@ -502,7 +502,7 @@
       "secao": "Depoimentos",
       "tipo": "blockquote (x2 no carrossel)",
       "original": "I can use the tool as a substitute from my PM.",
-      "novo": null,
+      "novo": "Eu inicio, paro, troco de rumo e perco o foco.",
       "caracteres": 46
     },
     {
@@ -511,7 +511,7 @@
       "secao": "Depoimentos",
       "tipo": "nome (x2)",
       "original": "Kundo Marta",
-      "novo": null,
+      "novo": "Memorização",
       "caracteres": 11
     },
     {
@@ -520,7 +520,7 @@
       "secao": "Depoimentos",
       "tipo": "cargo (x2)",
       "original": "Founder",
-      "novo": null,
+      "novo": "estudos",
       "caracteres": 7
     },
     {
@@ -529,7 +529,7 @@
       "secao": "Depoimentos",
       "tipo": "empresa (x8)",
       "original": "Mercury Finance",
-      "novo": null,
+      "novo": "Situação típica",
       "caracteres": 15
     },
     {
@@ -538,7 +538,7 @@
       "secao": "Preços",
       "tipo": "h2",
       "original": "Pricing",
-      "novo": null,
+      "novo": "Comece.",
       "caracteres": 7
     },
     {
@@ -547,7 +547,7 @@
       "secao": "Preços",
       "tipo": "p",
       "original": "Use Mainline for free with your whole team. Upgrade to enable unlimited issues, enhanced security controls, and additional features.",
-      "novo": null,
+      "novo": "Cada modo é um filtro sobre o mesmo grafo; o fator no centro não muda. Escolha onde quer começar e siga no seu ritmo, pouco a pouco.",
       "caracteres": 132
     },
     {
@@ -556,7 +556,7 @@
       "secao": "Preços",
       "tipo": "h3 (também usado na lógica)",
       "original": "Free",
-      "novo": null,
+      "novo": "Mapa",
       "caracteres": 4
     },
     {
@@ -565,7 +565,7 @@
       "secao": "Preços",
       "tipo": "h3 (também usado na lógica)",
       "original": "Startup",
-      "novo": null,
+      "novo": "Artigos",
       "caracteres": 7
     },
     {
@@ -574,7 +574,7 @@
       "secao": "Preços",
       "tipo": "h3 (também usado na lógica)",
       "original": "Enterprise",
-      "novo": null,
+      "novo": "Ferramenta",
       "caracteres": 10
     },
     {
@@ -583,7 +583,7 @@
       "secao": "Preços",
       "tipo": "span",
       "original": "Free for everyone",
-      "novo": null,
+      "novo": "Grátis para todos",
       "caracteres": 17
     },
     {
@@ -592,7 +592,7 @@
       "secao": "Preços",
       "tipo": "item de lista",
       "original": "Unlimited members",
-      "novo": null,
+      "novo": "4 funções no mapa",
       "caracteres": 17
     },
     {
@@ -601,7 +601,7 @@
       "secao": "Preços",
       "tipo": "item de lista",
       "original": "2 teams",
-      "novo": null,
+      "novo": "3 modos",
       "caracteres": 7
     },
     {
@@ -610,7 +610,7 @@
       "secao": "Preços",
       "tipo": "item de lista",
       "original": "500 issues",
-      "novo": null,
+      "novo": "Cérebro 3D",
       "caracteres": 10
     },
     {
@@ -619,7 +619,7 @@
       "secao": "Preços",
       "tipo": "item de lista",
       "original": "Slack and Github integrations",
-      "novo": null,
+      "novo": "Relações e fontes registradas",
       "caracteres": 29
     },
     {
@@ -628,7 +628,7 @@
       "secao": "Preços",
       "tipo": "item de lista",
       "original": "All free plan features and...",
-      "novo": null,
+      "novo": "Tudo do mapa e, além disso...",
       "caracteres": 29
     },
     {
@@ -637,7 +637,7 @@
       "secao": "Preços",
       "tipo": "item de lista",
       "original": "Mainline AI",
-      "novo": null,
+      "novo": "Guia de uso",
       "caracteres": 11
     },
     {
@@ -646,7 +646,7 @@
       "secao": "Preços",
       "tipo": "item de lista",
       "original": "Unlimited teams",
-      "novo": null,
+      "novo": "Leituras breves",
       "caracteres": 15
     },
     {
@@ -655,7 +655,7 @@
       "secao": "Preços",
       "tipo": "item de lista",
       "original": "Unlimited issues and file uploads",
-      "novo": null,
+      "novo": "Funções executivas na sua rotina.",
       "caracteres": 33
     },
     {
@@ -664,7 +664,7 @@
       "secao": "Preços",
       "tipo": "item de lista",
       "original": "Mainline Insights",
-      "novo": null,
+      "novo": "Riscos cognitivos",
       "caracteres": 17
     },
     {
@@ -673,7 +673,7 @@
       "secao": "Preços",
       "tipo": "item de lista",
       "original": "Admin roles",
-      "novo": null,
+      "novo": "Referências",
       "caracteres": 11
     },
     {
@@ -682,7 +682,7 @@
       "secao": "Preços",
       "tipo": "item de lista",
       "original": "Supermainline AGI",
-      "novo": null,
+      "novo": "Passos bem claros",
       "caracteres": 17
     },
     {
@@ -691,7 +691,7 @@
       "secao": "Preços",
       "tipo": "item de lista",
       "original": "Free daily catered lunch",
-      "novo": null,
+      "novo": "Prioridade de um só foco",
       "caracteres": 24
     },
     {
@@ -700,7 +700,7 @@
       "secao": "Preços",
       "tipo": "item de lista",
       "original": "random HIPPA audits",
-      "novo": null,
+      "novo": "Rever passo a passo",
       "caracteres": 19
     },
     {
@@ -709,7 +709,7 @@
       "secao": "Preços",
       "tipo": "rótulo",
       "original": "$8",
-      "novo": null,
+      "novo": "12",
       "caracteres": 2
     },
     {
@@ -718,7 +718,7 @@
       "secao": "Preços",
       "tipo": "rótulo",
       "original": "$6",
-      "novo": null,
+      "novo": "04",
       "caracteres": 2
     },
     {
@@ -727,7 +727,7 @@
       "secao": "Preços",
       "tipo": "rótulo",
       "original": "per user/",
-      "novo": null,
+      "novo": "por tema/",
       "caracteres": 9
     },
     {
@@ -736,7 +736,7 @@
       "secao": "Preços",
       "tipo": "rótulo",
       "original": "year",
-      "novo": null,
+      "novo": "guia",
       "caracteres": 4
     },
     {
@@ -745,7 +745,7 @@
       "secao": "Preços",
       "tipo": "rótulo",
       "original": "month",
-      "novo": null,
+      "novo": "texto",
       "caracteres": 5
     },
     {
@@ -754,7 +754,7 @@
       "secao": "Preços",
       "tipo": "rótulo",
       "original": "Billed annually",
-      "novo": null,
+      "novo": "Contar em guias",
       "caracteres": 15
     },
     {
@@ -763,7 +763,7 @@
       "secao": "Preços",
       "tipo": "rótulo",
       "original": "Get started",
-      "novo": null,
+      "novo": "Começar já.",
       "caracteres": 11
     },
     {
@@ -772,7 +772,7 @@
       "secao": "FAQ",
       "tipo": "h2",
       "original": "Got Questions?",
-      "novo": null,
+      "novo": "Dúvidas comuns",
       "caracteres": 14
     },
     {
@@ -781,7 +781,7 @@
       "secao": "FAQ",
       "tipo": "p",
       "original": "If you can't find what you're looking for,",
-      "novo": null,
+      "novo": "Se não encontrou aqui o que está buscando,",
       "caracteres": 42
     },
     {
@@ -790,7 +790,7 @@
       "secao": "FAQ",
       "tipo": "link",
       "original": "get in touch",
-      "novo": null,
+      "novo": "fale conosco",
       "caracteres": 12
     },
     {
@@ -799,7 +799,7 @@
       "secao": "FAQ",
       "tipo": "h3",
       "original": "Support",
-      "novo": null,
+      "novo": "Básicos",
       "caracteres": 7
     },
     {
@@ -808,7 +808,7 @@
       "secao": "FAQ",
       "tipo": "h3",
       "original": "Your account",
-      "novo": null,
+      "novo": "Sobre o mapa",
       "caracteres": 12
     },
     {
@@ -817,7 +817,7 @@
       "secao": "FAQ",
       "tipo": "h3",
       "original": "Other questions",
-      "novo": null,
+      "novo": "Outras questões",
       "caracteres": 15
     },
     {
@@ -826,7 +826,7 @@
       "secao": "FAQ",
       "tipo": "pergunta",
       "original": "How do I update my account without breaking my laptop?",
-      "novo": null,
+      "novo": "O mapa cognitivo faz algum tipo de diagnóstico médico?",
       "caracteres": 54
     },
     {
@@ -835,7 +835,7 @@
       "secao": "FAQ",
       "tipo": "pergunta",
       "original": "Is support free, or do I need to Google everything?",
-      "novo": null,
+      "novo": "Posso usar o mapa no lugar de uma avaliação médica?",
       "caracteres": 51
     },
     {
@@ -844,7 +844,7 @@
       "secao": "FAQ",
       "tipo": "pergunta",
       "original": "Are you going to be subsumed by AI?",
-      "novo": null,
+      "novo": "O site substitui um acompanhamento?",
       "caracteres": 35
     },
     {
@@ -853,7 +853,7 @@
       "secao": "FAQ",
       "tipo": "resposta (x7)",
       "original": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus voluptates deserunt officia temporibus dignissimos.",
-      "novo": null,
+      "novo": "Não. O mapa organiza uma forma operacional de ler a execução. Não é diagnóstico e não substitui avaliação clínica.",
       "caracteres": 114
     },
     {
@@ -862,7 +862,7 @@
       "secao": "Rodapé (GLOBAL)",
       "tipo": "h2",
       "original": "Start your free trial today",
-      "novo": null,
+      "novo": "Dê o seu próximo passo hoje",
       "caracteres": 27
     },
     {
@@ -871,7 +871,7 @@
       "secao": "Rodapé (GLOBAL)",
       "tipo": "p",
       "original": "Mainline is the fit-for-purpose tool for planning and building modern software products.",
-      "novo": null,
+      "novo": "Risco Cognitivo ajuda a transformar intenções em execução, uma função executiva por vez.",
       "caracteres": 88
     },
     {
@@ -880,7 +880,7 @@
       "secao": "Menu (GLOBAL)",
       "tipo": "dropdown",
       "original": "Modern product teams",
-      "novo": null,
+      "novo": "Entenda sua execução",
       "caracteres": 20
     },
     {
@@ -889,7 +889,7 @@
       "secao": "Menu (GLOBAL)",
       "tipo": "dropdown",
       "original": "Mainline is built on the habits that make the best product teams successful",
-      "novo": null,
+      "novo": "Explore as relações entre funções executivas, demandas e estratégias úteis.",
       "caracteres": 75
     },
     {
@@ -898,8 +898,134 @@
       "secao": "Menu (GLOBAL)",
       "tipo": "dropdown",
       "original": "Resource Allocation",
-      "novo": null,
+      "novo": "Estratégia de apoio",
       "caracteres": 19
+    },
+    {
+      "id": "meta.description.curta",
+      "arquivo": "src/consts.ts",
+      "secao": "Metadados (aba/SEO)",
+      "tipo": "description (SITE_METADATA, OG, Twitter)",
+      "original": "A modern Astro template built with shadcn/ui, Tailwind & MDX. Open source - MIT License.",
+      "novo": "Risco Cognitivo ajuda a transformar intenções em execução, uma função executiva por vez.",
+      "caracteres": 88
+    },
+    {
+      "id": "preco.precos.gratis",
+      "arquivo": "src/components/blocks/pricing.tsx",
+      "secao": "Preços",
+      "tipo": "rótulo",
+      "original": "$0",
+      "novo": "04",
+      "caracteres": 2
+    },
+    {
+      "id": "menu.recursos",
+      "arquivo": "src/components/blocks/navbar.tsx",
+      "secao": "Menu (GLOBAL)",
+      "tipo": "link",
+      "original": "Features",
+      "novo": "Recursos",
+      "caracteres": 8
+    },
+    {
+      "id": "menu.sobre",
+      "arquivo": "src/components/blocks/navbar.tsx",
+      "secao": "Menu (GLOBAL)",
+      "tipo": "link",
+      "original": "About Us",
+      "novo": "Proposta",
+      "caracteres": 8
+    },
+    {
+      "id": "menu.precos",
+      "arquivo": "src/components/blocks/navbar.tsx",
+      "secao": "Menu (GLOBAL)",
+      "tipo": "link",
+      "original": "Pricing",
+      "novo": "Começar",
+      "caracteres": 7
+    },
+    {
+      "id": "menu.contato",
+      "arquivo": "src/components/blocks/navbar.tsx",
+      "secao": "Menu (GLOBAL)",
+      "tipo": "link",
+      "original": "Contact",
+      "novo": "Contato",
+      "caracteres": 7
+    },
+    {
+      "id": "menu.sr",
+      "arquivo": "src/components/blocks/navbar.tsx",
+      "secao": "Menu (GLOBAL)",
+      "tipo": "sr-only",
+      "original": "Open main menu",
+      "novo": "Menu principal",
+      "caracteres": 14
+    },
+    {
+      "id": "rodape.produto",
+      "arquivo": "src/components/blocks/footer.tsx",
+      "secao": "Rodapé (GLOBAL)",
+      "tipo": "link",
+      "original": "Product",
+      "novo": "Produto",
+      "caracteres": 7
+    },
+    {
+      "id": "rodape.sobre",
+      "arquivo": "src/components/blocks/footer.tsx",
+      "secao": "Rodapé (GLOBAL)",
+      "tipo": "link",
+      "original": "About Us",
+      "novo": "Proposta",
+      "caracteres": 8
+    },
+    {
+      "id": "rodape.precos",
+      "arquivo": "src/components/blocks/footer.tsx",
+      "secao": "Rodapé (GLOBAL)",
+      "tipo": "link",
+      "original": "Pricing",
+      "novo": "Começar",
+      "caracteres": 7
+    },
+    {
+      "id": "rodape.contato",
+      "arquivo": "src/components/blocks/footer.tsx",
+      "secao": "Rodapé (GLOBAL)",
+      "tipo": "link",
+      "original": "Contact",
+      "novo": "Contato",
+      "caracteres": 7
+    },
+    {
+      "id": "rodape.privacidade",
+      "arquivo": "src/components/blocks/footer.tsx",
+      "secao": "Rodapé (GLOBAL)",
+      "tipo": "link",
+      "original": "Privacy Policy",
+      "novo": "Dados pessoais",
+      "caracteres": 14
+    },
+    {
+      "id": "rodape.cta",
+      "arquivo": "src/components/blocks/footer.tsx",
+      "secao": "Rodapé (GLOBAL)",
+      "tipo": "botão",
+      "original": "Get template",
+      "novo": "Abrir o mapa",
+      "caracteres": 12
+    },
+    {
+      "id": "menu.dd2.desc",
+      "arquivo": "src/components/blocks/navbar.tsx",
+      "secao": "Menu (GLOBAL)",
+      "tipo": "dropdown",
+      "original": "Mainline your resource allocation and execution",
+      "novo": "Da intenção à execução, com estratégia e apoio.",
+      "caracteres": 47
     }
   ],
   "imagens": [
@@ -1192,6 +1318,27 @@
       "altura": 945,
       "caixa_renderizada": "Open Graph (declarado 1200x630 em consts.ts, mesma proporção 1.9:1)",
       "novo": null
+    },
+    {
+      "id": "marca.menu",
+      "arquivo": "public/logo.svg",
+      "secao": "Menu (GLOBAL)",
+      "formato": "svg",
+      "largura": 95,
+      "altura": 18,
+      "caixa_renderizada": "94x18 (img, dark:invert); também em /login e /signup",
+      "novo": "Wordmark 'Risco Cognitivo' em DM Sans SemiBold (scripts/gerar-marca.py); ícone do template removido"
+    }
+  ],
+  "imagens_inline": [
+    {
+      "id": "marca.rodape",
+      "arquivo": "src/components/blocks/footer.tsx",
+      "secao": "Rodapé (GLOBAL)",
+      "formato": "svg inline",
+      "largura": 1570,
+      "altura": 293,
+      "novo": "Wordmark 'Risco Cognitivo' em DM Sans SemiBold, mesmo viewBox e mesmo degradê"
     }
   ]
 }
