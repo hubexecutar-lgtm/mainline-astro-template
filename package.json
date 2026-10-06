@@ -13,7 +13,8 @@
     "deploy": "npm run build && wrangler deploy",
     "cf:check": "npm run build && wrangler deploy --dry-run",
     "cf:preview": "npm run build && wrangler dev",
-    "check:home": "node scripts/check-home-slots.mjs"
+    "check:home": "node scripts/check-slots.mjs home",
+    "check:slots": "node scripts/check-slots.mjs"
   },
   "dependencies": {
     "@astrojs/mdx": "^4.3.7",

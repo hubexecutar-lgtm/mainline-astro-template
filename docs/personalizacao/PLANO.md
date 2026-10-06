@@ -1,5 +1,7 @@
 # Plano de implementação e personalização
 
+> Regra oficial: [ADR-001](../adr/ADR-001-personalizacao-sem-alterar-layout.md). Vale para todas as rotas.
+
 ## Regra de ouro
 
 A estrutura, o layout, as classes e a lógica dos componentes **não mudam**. A personalização consiste em:
@@ -7,7 +9,7 @@ A estrutura, o layout, as classes e a lógica dos componentes **não mudam**. A 
 - **Texto:** trocar cada texto por outro com **exatamente o mesmo número de caracteres** (espaços, pontuação e acentos contam; `á` conta como 1).
 - **Imagem:** substituir o arquivo mantendo **o mesmo caminho, o mesmo formato e as mesmas dimensões** em pixels (ou o mesmo `viewBox`, no caso de SVG).
 
-O inventário de cada rota fica em `docs/personalizacao/<rota>-slots.json`. O comando `npm run check:home` verifica:
+O inventário de cada rota fica em `docs/personalizacao/<rota>-slots.json`. O comando `npm run check:slots` (todas as rotas) ou `npm run check:home` verifica:
 
 - se cada texto original ainda está no arquivo;
 - se cada texto novo tem o tamanho exato e foi aplicado;
