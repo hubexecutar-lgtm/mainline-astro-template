@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "scope": "organização e preservação de bytes",
+  "source_files": 33,
+  "preserved_files": 33,
+  "generated_files": 5,
+  "all_source_hashes_match": true,
+  "unique_destination_paths": true,
+  "exact_duplicate_groups": [],
+  "historical_audit_revalidated": false,
+  "missing_historical_audit_inputs": [
+    "risco-cognitivo.mdx",
+    "risco-cognitivo-reading-flow-v1.mdx"
+  ],
+  "source_zip_sha256": "893237788f50b9f59807b34e2d69c5554b35f85a3f383fd9f41e55030eca5667"
+}

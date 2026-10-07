@@ -1,8 +1,7 @@
 """Gera o contorno SVG de um texto com a DM Sans do site, encaixado num viewBox.
 
 Uso: python3 scripts/gerar-marca.py "<texto>" <fonte.ttf> <x0> <x1> <baseline> [altura_max]
-Imprime o atributo d (path) e a escala usada. Mantém o viewBox do arquivo de destino
-(ADR-001: imagem com o mesmo caminho, formato e dimensões).
+Imprime o atributo d (path) e a escala usada. Mantém o viewBox do arquivo de destino.
 """
 import sys
 from fontTools.ttLib import TTFont
