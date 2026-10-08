@@ -97,14 +97,61 @@ export const Hero = () => {
         </div>
       </div>
 
-      <div className="mt-12 max-lg:ml-6 max-lg:h-[550px] max-lg:overflow-hidden md:mt-20 lg:container lg:mt-24">
-        <div className="relative h-[793px] w-full">
-          <img
-            src="/hero.webp"
-            alt="hero"
-            className="w-full rounded-2xl object-cover object-left-top shadow-lg max-lg:rounded-tr-none"
-          />
+      <div className="container mt-12 md:mt-20 lg:mt-24">
+        <div className="mb-6 flex flex-wrap items-end justify-between gap-4">
+          <h2 className="text-2xl tracking-tight md:text-3xl">O cérebro por trás da execução.</h2>
+          <p className="text-muted-foreground max-w-sm text-sm leading-relaxed">
+            Anatomia, estruturas e conexões neurais em imagens ilustrativas.
+          </p>
         </div>
+        <div className="grid gap-4 md:grid-cols-3">
+          {[
+            {
+              src: "/brain-visuals/anatomia-lateral.webp",
+              eyebrow: "01 · Anatomia",
+              label: "Estruturas cerebrais",
+              alt: "Ilustração anatômica lateral do encéfalo e da região cervical",
+            },
+            {
+              src: "/brain-visuals/atlas-encefalico.webp",
+              eyebrow: "02 · Contexto",
+              label: "Visão em camadas",
+              alt: "Atlas anatômico ilustrado de estruturas encefálicas e cervicais",
+            },
+            {
+              src: "/brain-visuals/rede-sinaptica.webp",
+              eyebrow: "03 · Conexões",
+              label: "Rede neural",
+              alt: "Ilustração em malha de uma conexão entre células nervosas",
+            },
+          ].map((visual) => (
+            <figure
+              key={visual.src}
+              className="bg-background overflow-hidden rounded-3xl border shadow-sm"
+            >
+              <div className="bg-[#F7F7F7] aspect-[4/3] overflow-hidden p-3">
+                <img
+                  src={visual.src}
+                  alt={visual.alt}
+                  loading="lazy"
+                  decoding="async"
+                  className="h-full w-full object-contain"
+                />
+              </div>
+              <figcaption className="border-t p-5">
+                <span className="text-muted-foreground font-mono text-xs uppercase tracking-wider">
+                  {visual.eyebrow}
+                </span>
+                <h3 className="mt-2 text-xl font-semibold tracking-tight">
+                  {visual.label}
+                </h3>
+              </figcaption>
+            </figure>
+          ))}
+        </div>
+        <p className="text-muted-foreground mt-5 text-xs leading-relaxed">
+          Referências ilustrativas; não representam uma localização isolada das funções executivas nem permitem diagnóstico.
+        </p>
       </div>
     </section>
   );
